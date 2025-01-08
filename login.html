@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>로그인</title>
+</head>
+<body>
+  <form action="index.html">
+    <fieldset>
+      <legend>검색</legend>
+      <label>이름<input type="checkbox" name="search" id=""></label>
+      <label>별명<input type="checkbox" name="checkbox" id=""></label>
+      <label></label>
+    </fieldset>
+    <fieldset>
+      <legend>성별</legend>
+      <label>남성<input type="radio" name="gander" id=""></label>
+      <label>여성<input type="radio" name="gander" id=""></label>
+    </fieldset>
+    <fieldset>
+      <legend>사용자 정보</legend>
+      <label>사용자 ID : <input type="text" name="userId" value="admin"></label>
+      <label>비밀번호 : <input type="password" name="userPw" value="admin"></label>
+      <label>이메일 정보 : <input type="email" name="userEmail" required ></label>
+    </fieldset>
+    <fieldset>
+      <legend>추가정보</legend>
+      <label for="birth">생년월일 <input type="date" name="date" id="birth"></label>
+      <label for="">범위 <input type="range" name="uesrrange" id="userrange" min="1" max="10" step="1" value="20" oninput="document.getElementById('userrange').innerText = this.value">
+      <span id="userrange">1</span></label>
+    </fieldset>
+    <fieldset>
+      <legend>버튼</legend>
+      <input type="submit" value="로그인">
+      <input type="reset" value="취소">
+
+      
+    </fieldset>
+  </form>
+
+</body>
+</html>
