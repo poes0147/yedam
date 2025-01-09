@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+	<meta charset="UTF-8">
+	<title>연습문제 2</title>
+	<!-- <style>
+		#container {
+			width: 520px;
+			border: 1px solid black;
+			padding: 20px 40px;
+			margin: 0 auto;
+		}
+
+		fieldset {
+			margin-bottom: 15px;
+		}
+
+		legend {
+			font-weight: bold;
+		}
+
+		ul {
+			list-style-type: none;
+		}
+
+		li {
+			line-height: 30px;
+		}
+	</style> -->
+	<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+	<div id="container">
+		<h1>프런트엔드 개발자 지원서 </h1>
+		<p>HTML, CSS, Javascript에 대한 기술적 이해와 경험이 있는 분을 찾습니다.</p>
+		<hr>
+		<form action="정보를 입력하세요.">
+
+			<legend>개인 정보</legend>
+			<ul>
+				<li>
+					<label for="userName">이름 
+						<input type="text" id="userName" placeholder="공백 없이 입력하세요.">
+					</label>
+				</li>
+				<li>
+					<label for="userTel">연락처 
+						<input type="tel" name="" id="userTel" required>
+					</label>
+				</li>
+			</ul>
+			<legend>지원분야</legend>
+			<ul>
+				<li>
+					<label for="userArea1">
+						<input type="radio" name="area" id="userArea1">웹퍼블리싱
+					</label>
+				</li>
+
+				<li>
+					<label for="userArea2">
+						<input type="radio" name="area" id="userArea2">웹 애플리케이션 개발
+					</label>
+				</li>
+
+				<li>
+					<label for="userArea3">
+						<input type="radio" name="area" id="userArea3">개발 환경 개선
+					</label>
+				</li>
+			</ul>
+			<legend>지원동기</legend>
+			<label for="">
+				<textarea name="" rows="5" cols="60" placeholder="본사 지원 동기를 간략히 써 주세요."></textarea>
+			</label>
+			<div>
+				<input type="submit" name="" id="" value="접수하기">
+				<input type="reset" name="" id="" value="다시쓰기">
+			</div>
+
+		</form>
+	</div>
+</body>
+
+</html>
