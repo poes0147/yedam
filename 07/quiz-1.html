@@ -4,7 +4,24 @@
 	<meta charset="UTF-8">
 	<title>연습문제</title>
   <style>
-  
+  table{
+    border: 1px solid black;
+    border-collapse: collapse;
+    caption-side: bottom;
+  }
+  td, th{
+    border: 1px solid black;
+    padding: 10px;
+  }
+  th:nth-of-type(1){
+    text-align: left;
+  }
+  caption{
+    text-align: right;
+  }
+  .last{
+    background-color: #e5f6f6;
+  }
   </style>
 </head>
 <body>
@@ -16,7 +33,7 @@
         <th>2019</th>
         <th>2020</th>
         <th>2021</th>
-        <th>2022</th>
+        <th class="last">2022</th>
       </tr>
     </thead>
     <tbody>
@@ -25,14 +42,14 @@
         <td>20,891,348</td>
         <td>21,484,785</td>
         <td>22,022,753</td>
-        <td>22,383,187</td>
+        <td class="last">22,383,187</td>
       </tr>
       <tr>
         <th>1인가구</th>
         <td>6,147,516</td>
         <td>6,643,354</td>
         <td>7,165,788</td>
-        <td>7,502,350</td>
+        <td class="last">7,502,350</td>
       </tr>
     </tbody>
   </table>

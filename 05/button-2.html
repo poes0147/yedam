@@ -5,9 +5,18 @@
 	<title>웹 폼</title>
 </head>
 <body>
-	<form>
+	<form accept="date-1.html">
     <!-- Do it! 폼 안에 자바스크립트 실행 버튼 삽입하기 -->
-    
-  </form>
+     <button onclick="form.submit()"> 전송 </button>
+		</form>
+		<script>
+			function form.submit() {
+				event.preventDefault();
+				console.log("폼전송");
+				Document.form(0).submit
+			}
+
+		</script>
+
 </body>
 </html>

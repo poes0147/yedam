@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>친구목록</title>
+</head>
+
+<body>
+  <style>
+    thead,
+    td,
+    th {
+      border: 1px;
+      border-collapse: collapse;
+    }
+
+    thead {
+      background-color: aquamarine;
+      color: brown;
+    }
+
+    th,td {
+      width: 300px;
+      height: auto;
+    }
+  </style>
+  <main>
+    <h1>친한친구 목록</h1>
+    <!-- 표만들기 친한친구 목록과 연락처, 주소-->
+    <table border="2">
+      <!-- thead 타이틀 -->
+      <!-- tbody 데이터 -->
+      <caption>친한친구 목록</caption>
+      <thead>
+        <tr>
+          <th>친구이름</th>
+          <th>연락처</th>
+          <th>주소</th>
+          <th>사진</th>
+
+        </tr>
+      <tbody>
+        <tr>
+          <td>헝그리</td>
+          <td>010-0000-0000</td>
+          <td>대구시 어느나라</td>
+          <td><img src="google.png" width="100px" height="100px"></td>
+        </tr>
+        <tr>
+          <td>길즈</td>
+          <td>010-0020-2212</td>
+          <td colspan="2">경산시</td>
+        </tr>
+      </tbody>
+
+    </table>
+    <a href="resuml.html"> 돌아가기 </a>
+    <img src="google.png" width="200px" height="200">
+    <table border="1">
+      <colgroup>
+        <col style="width: 100px; background-color: blue;">
+        <col style="width: 400px;">
+        <col style="width: 400px;">
+      </colgroup>
+      <thead>
+        <tr>
+          <th>종류</th>
+          <th>설명</th>
+          <th>용도</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>GIF<br>(Graphics)</td>
+          <td>간단한 애니메이션을 지원합니다.</td>
+          <td>간단한 애니메이션이나 아이콘</td>
+        </tr>
+      </tbody>
+      <tbody>
+        <tr>
+          <td>
+            <p>JPG</p>
+            <p>(joint))</p>
+          </td>
+          <td>고해상도 사진을 작은 파일 크기로 압축할 수 있어서 널리 사용합니다.</td>
+          <td>사진이나 그래픽</td>
+        </tr>
+      </tbody>
+      <tbody>
+        <tr>
+          <td>
+            <p>PNG</p>
+            <p>(portalbe)</p>
+          </td>
+          <td>투명 배경을 지원합니다.</td>
+          <td>화질 저하 없이 투명 배경이 필요한 그래픽</td>
+        </tr>
+      </tbody>
+      <tbody>
+        <tr>
+          <td>
+            <p>WebP</p>
+          </td>
+          <td>GIF나 JPG, PNG의 장점을 하나로 결합힌 이미지 형식</td>
+          <td>고해상도의 이미지를 작은 파일 크기로 제공할 때</td>
+        </tr>
+      </tbody>
+    </table>
+  </main>
+</body>
+
+</html>

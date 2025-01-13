@@ -1,21 +1,53 @@
 <!DOCTYPE html>
 <html lang="ko">
+
 <head>
   <meta charset="UTF-8">
   <title>연습문제 2</title>
   <style>
-    table, td, th {
-      border:1px solid #ccc;
+    table, td, th, div{
+      border: 1px solid #ccc;
     }
     td, th {
-      padding:10px 20px;
+      padding: 10px 20px;
+      font-weight: bold;
+      /* text-align: center; */
     }
-    td:last-child{
-      width:200px;
+    td:last-child {
+      width: 200px;
+    }
+    div{
+      padding: 10px 30px 40px 10px;
+      width: 500px;
     }
   </style>
 </head>
+
 <body>
-  
+  <div >
+  <table>
+    <h1> 수습 국원 지원 양식 </h1>
+    <tbody>
+      <tr>
+        <th rowspan="3">개인정보</th>
+        <th>이름</th>
+        <td></td>
+      </tr>
+      <tr>
+        <th>학과/학번</th>
+        <td></td>
+      </tr>
+      <tr>
+        <th>연락처</th>
+        <td></td>
+      </tr>
+      <tr>
+        <td>지원분야</td>
+        <td colspan="2"></td>
+      </tr>
+    </tbody>
+  </table>
+</div>
 </body>
+
 </html>
