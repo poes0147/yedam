@@ -191,7 +191,7 @@ END IF;
 DECLARE
     v_number NUMBER := 13;
 BEGIN
-    IF MOD(v_number, 2) = 1 THEN
+    IF MOD(v_number, 2) = 1 THEN   
         DBMS_OUTPUT.PUT_LINE('v_number는 홀수입니다.');
     END IF;
 END;
